@@ -46,6 +46,7 @@ nav {
 
 .banner-section {
   display: flex;
+  align-items: center;
   background-color: lightgray;
 }
 
@@ -130,13 +131,26 @@ nav {
 
 .info-sections {
   display: flex;
-  align-items: center;
-  
+  align-items: center; 
+}
+
+.info-sections div {
+  padding: 0 0.75rem;
 }
 
 .info-sections h3 {
-  margin-top: 0;
+  margin: 0;
+  font-size: 1.4rem;
 
+}
+
+.info-sections p {
+  margin: 8px 0;
+  font-size: 1.1rem;
+}
+
+.info-sections a {
+  color: #31a9f9;
 }
 
 .info-sections:hover {
