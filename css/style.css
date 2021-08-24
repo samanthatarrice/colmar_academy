@@ -1,6 +1,12 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
+  color: #3A3B3C;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Navigation Section */
@@ -14,7 +20,6 @@ nav {
 }
 
   nav a {
-  text-decoration: none;
   color: black;
 }
 
@@ -25,6 +30,10 @@ nav {
 
 .logo {
   display: flex;
+}
+
+.colmar {
+  font-weight: bold;
 }
 
 .navbar-right a {
@@ -40,25 +49,27 @@ nav {
 }
 
 .banner-section img {
-  width: 60%;
   margin: 32px 24px;
+  width: 60%;
 }
 
 .banner-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 80px;
-  color: #3A3B3C;
+  margin-right: 10%;
+  margin-left: 16px;
+  width: 40%;
 }
 
 .banner-text h1 {
-  font-size: 1.7rem;
+  font-size: 2.4rem;
   margin: 0;
 }
 
 .banner-section p {
   padding-bottom: 0.5rem;
+  font-size: 1.5rem;
 }
 
 .banner-text button {
@@ -66,5 +77,66 @@ nav {
   border-color: #3A3B3C;
   background-color: #3A3B3C;
   color: white;
+  font-size: 1.2rem;
 }
+
+/* Information Section */
+
+.info-main {
+  display: flex;
+}
+
+.practicing {
+  margin: 32px 24px 0;
+  width: 63%;
+
+}
+
+.practicing img {
+  width: 100%;
+}
+
+.practicing h2 {
+  font-size: 2rem;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.quote {
+  font-size: 1.2rem;
+}
+
+.quote-author {
+  margin: 32px 0;
+}
+
+.more-info {
+  display: flex;
+  flex-direction: column;
+  width: 37%;
+  margin: 16px 0 16px 16px;
+}
+
+.more-info img {
+  width: 35%;
+  height: auto;
+  margin: 16px 16px 16px 0;
+}
+
+.info-sections {
+  display: flex;
+  align-items: center;
+  
+}
+
+.info-sections h3 {
+  margin-top: 0;
+
+}
+
+.info-sections:hover {
+  background-color: lightgray;
+}
+
+
 
