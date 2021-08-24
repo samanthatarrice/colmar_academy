@@ -379,19 +379,26 @@ footer a {
 
   .banner-section {
     display: inline-block;
+    height: auto;
   }
   .banner-img {
     margin: 0;
     max-width: 100%;
-    height: 500px;
     overflow: hidden;
   }
+  .banner-img img {
+    height: 500px;
+  }
+
   .banner-text {
-    margin: 32px auto;
+    margin: 32px 0;
     width: 90%;
+    top: 50px;
+    padding: 0 4rem;
   }
   .banner-text h1 {
-    font-size: 2.4rem;
+    font-size: 3rem;
+    line-height: 1.5;
   }
   .banner-text a {
     width: 50%;
@@ -410,12 +417,13 @@ footer a {
   .more-info-cont {
     min-width: 100%;
     margin-top: 16px;
+    border-bottom: lightgray solid 2px;
   }
   .more-info {
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
   }
   .more-info img {
-    width: 90%;
+    width: 89%;
   }
   .info-text {
     width: 85%;
@@ -423,6 +431,12 @@ footer a {
   .info-text h3 {
     font-size: 1.5rem;
     margin-top: 1rem;
+  }
+  .info-section {
+    padding-bottom: 8px;
+  }
+  .more-info:nth-of-type(3n) {
+    margin-bottom: 1rem;
   }
 
   .courses-section {
@@ -432,10 +446,10 @@ footer a {
   }
   .courses-section h2 {
     margin-bottom: 2rem;
+    font-size: 2.3rem;
   }
   .courses-cont {
     display: block;
-    text-align: center;
   }
   .course-box {
     background-color: lightgray;
@@ -454,6 +468,22 @@ footer a {
     font-size: 1.5rem;
   }
 
+  .thesis-section h2 {
+    font-size: 2.3rem;
+  }
+  .thesis-examples-cont, .reimagine h3, .reimagine p {
+    display: none;
+  }
+  .thesis-cont {
+    display: inline-block;
+    margin: 0 auto;
+    min-width: 100%;
+  }
+  .reimagine {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+  }
 
 
 
