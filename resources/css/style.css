@@ -322,10 +322,6 @@ footer a {
     font-size: 1.2rem;
   }
 
-  p {
-    font-size: 0.85rem;
-  }
-
   .banner-text {
     margin-right: 7%;
   }
@@ -333,15 +329,17 @@ footer a {
     font-size: 2rem;
   }
   .banner-text p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .more-info {
     padding-right: 0.5rem;
   }
-
+  .info-section p {
+    font-size: 1rem;
+  }
   .course-box {
-    height: 17rem;
+    height: 19rem;
   }
   .course-box p {
     font-size: 0.9rem;
@@ -349,6 +347,9 @@ footer a {
 
   .thesis-example {
     padding-right: 1rem;
+  }
+  .thesis-section p {
+    font-size: 1rem;
   }
 }
 
@@ -420,8 +421,37 @@ footer a {
     width: 85%;
   }
   .info-text h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 1rem;
+  }
+
+  .courses-section {
+    background-color: white;
+    padding: 0;
+    margin: 0 2.2rem;
+  }
+  .courses-section h2 {
+    margin-bottom: 2rem;
+  }
+  .courses-cont {
+    display: block;
+    text-align: center;
+  }
+  .course-box {
+    background-color: lightgray;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .course-box img {
+    display: none;
+  }
+  .course-box p {
+    display: none;
+  }
+  .course-box h3 {
+    padding: 24px 0 24px 16px;
+    font-size: 1.5rem;
   }
 
 
