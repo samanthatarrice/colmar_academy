@@ -1,6 +1,36 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 24px;
+  margin: 0 24px;
 }
 
+/* Navigation Section */
 
+nav {
+  height: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  display: inline-flex;
+
+}
+
+.logo {
+  display: flex;
+}
+
+.navbar-right {
+  float: right;
+}
+
+.navbar-right a {
+  padding-left: 16px;
+}
