@@ -12,6 +12,14 @@ a {
 h2 {
   font-size: 2rem;
 }
+
+h3 {
+  font-size: 1.4rem;
+}
+
+.more-info:hover, .thesis-example:hover {
+  background-color: lightgray;
+}
 /* Navigation Section */
 
 nav {
@@ -92,7 +100,7 @@ nav {
 
 /* Information Section */
 
-.info-main {
+.info-section {
   display: flex;
 }
 
@@ -118,44 +126,39 @@ nav {
   margin: 32px 0;
 }
 
-.more-info {
+.more-info-cont {
   display: flex;
   flex-direction: column;
   width: 42%;
-  margin: 16px 0 16px 16px;
+  margin: 16px 0;
 }
 
-.more-info img {
+.more-info-cont img {
   width: 35%;
   height: auto;
-  margin: 16px 16px 16px 0;
+  margin: 16px;
 }
 
-.info-sections {
+.more-info {
   display: flex;
   align-items: center; 
 }
 
-.info-sections div {
+.more-info div {
   padding: 0 0.75rem;
 }
 
-.info-sections h3 {
+.more-info h3 {
   margin: 0;
-  font-size: 1.4rem;
 }
 
-.info-sections p {
+.more-info p {
   margin: 8px 0;
   font-size: 1.1rem;
 }
 
-.info-sections a {
+.more-info a {
   color: #31a9f9;
-}
-
-.info-sections:hover {
-  background-color: lightgray;
 }
 
 
@@ -192,8 +195,6 @@ nav {
 
 .course-box h3 {
   margin: 16px 0 0 0;
-  font-size: 1.4rem;
-
 }
 
 .course-box p {
@@ -210,6 +211,7 @@ nav {
 
 .thesis-section h2 {
   text-align: center;
+  margin: 32px 0 0 0;
 }
 
 .thesis-cont {
@@ -225,11 +227,20 @@ nav {
   width: 100%;
 }
 
+.reimagine h3 {
+  margin: 24px 0 8px 0;
+}
+
+.reimagine p {
+  margin: 0 0 32px 0;
+}
+
+
 .thesis-examples-cont {
   display: flex;
   flex-direction: column;
   width: 42%;
-  margin: 16px 0 16px 16px;
+  margin: 16px 0;
 }
 
 .thesis-example {
@@ -243,7 +254,6 @@ nav {
 
 .thesis-example h3 {
   margin: 0;
-  font-size: 1.4rem;
 }
 
 .thesis-example p {
@@ -254,7 +264,7 @@ nav {
 .thesis-example img {
   width: 35%;
   height: auto;
-  margin: 16px 16px 16px 0;
+  margin: 16px;
 }
 /* 
 - wrap anchor tags around linked items
