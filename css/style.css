@@ -266,6 +266,23 @@ nav {
   height: auto;
   margin: 16px;
 }
+
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  margin: 0 24px 32px 24px;
+}
+
+footer a {
+  padding-left: 1.5rem;
+}
+
 /* 
 - wrap anchor tags around linked items
 - make alt tags uniform
