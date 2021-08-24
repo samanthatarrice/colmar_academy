@@ -41,6 +41,7 @@ nav {
   margin-right: 24px;
 }
 
+
 /* Banner Section */
 
 .banner-section {
@@ -48,9 +49,14 @@ nav {
   background-color: lightgray;
 }
 
-.banner-section img {
+.banner-img {
   margin: 32px 24px;
-  width: 60%;
+  width: 65%;
+}
+
+.banner-img img {
+  width: 100%;
+
 }
 
 .banner-text {
@@ -59,7 +65,7 @@ nav {
   justify-content: center;
   margin-right: 10%;
   margin-left: 16px;
-  width: 40%;
+  width: 35%;
 }
 
 .banner-text h1 {
@@ -88,8 +94,7 @@ nav {
 
 .practicing {
   margin: 32px 24px 0;
-  width: 63%;
-
+  width: 58%;
 }
 
 .practicing img {
@@ -113,7 +118,7 @@ nav {
 .more-info {
   display: flex;
   flex-direction: column;
-  width: 37%;
+  width: 42%;
   margin: 16px 0 16px 16px;
 }
 
