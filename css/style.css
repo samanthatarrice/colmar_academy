@@ -9,6 +9,9 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  font-size: 2rem;
+}
 /* Navigation Section */
 
 nav {
@@ -57,7 +60,6 @@ nav {
 
 .banner-img img {
   width: 100%;
-
 }
 
 .banner-text {
@@ -104,7 +106,6 @@ nav {
 }
 
 .practicing h2 {
-  font-size: 2rem;
   margin-top: 32px;
   margin-bottom: 24px;
 }
@@ -203,3 +204,59 @@ nav {
 .courses-text {
   margin: 16px;
 }
+
+
+/* Thesis Section */
+
+.thesis-section h2 {
+  text-align: center;
+}
+
+.thesis-cont {
+  display: flex;
+}
+
+.reimagine {
+  margin: 32px 24px 0;
+  width: 58%;
+}
+
+.reimagine video {
+  width: 100%;
+}
+
+.thesis-examples-cont {
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+  margin: 16px 0 16px 16px;
+}
+
+.thesis-example {
+  display: flex;
+  align-items: center; 
+}
+
+.thesis-example div {
+  padding: 0 0.75rem;
+}
+
+.thesis-example h3 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.thesis-example p {
+  margin: 8px 0;
+  font-size: 1.1rem;
+}
+
+.thesis-example img {
+  width: 35%;
+  height: auto;
+  margin: 16px 16px 16px 0;
+}
+/* 
+- wrap anchor tags around linked items
+- make alt tags uniform
+ */
