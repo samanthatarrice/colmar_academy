@@ -2,6 +2,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   color: #3A3B3C;
+  box-sizing: border-box;
 }
 
 p {
@@ -28,6 +29,7 @@ h3 {
 
 nav a {
   color: black;
+  font-size: 1.3rem;
 }
 
 .navbar-desktop {
@@ -40,6 +42,13 @@ nav a {
 
 .logo {
   display: flex;
+  font-size: 30px;
+}
+
+.logo img {
+  width: 42px;
+  height: auto;
+  margin-top: 0.2rem;
 }
 
 .colmar {
@@ -61,11 +70,12 @@ nav a {
   display: flex;
   align-items: center;
   background-color: lightgray;
+  width: 100%;
 }
 
 .banner-img {
   margin: 32px 24px;
-  width: 65%;
+  max-width: 60%;
 }
 
 .banner-img img {
@@ -73,28 +83,28 @@ nav a {
 }
 
 .banner-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   margin-right: 10%;
   margin-left: 16px;
-  width: 35%;
+  width: 40%;
+  max-width: 400px;
 }
 
 .banner-text h1 {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   margin: 0;
 }
 
 .banner-section p {
   padding-bottom: 0.5rem;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 .banner-text a {
-  padding: 8px;
+  display: block;
+  padding: 1rem;
   border-color: #3A3B3C;
   background-color: #3A3B3C;
+  width: 100%;
   color: white;
   font-size: 1.2rem;
   text-align: center;
@@ -105,11 +115,12 @@ nav a {
 
 .info-section {
   display: flex;
+  width: 100%;
 }
 
 .practicing {
-  margin: 32px 24px 0;
-  width: 58%;
+  margin: 32px 24px;
+  max-width: 60%;
 }
 
 .practicing img {
@@ -132,14 +143,18 @@ nav a {
 .more-info-cont {
   display: flex;
   flex-direction: column;
-  width: 42%;
+  width: 40%;
   margin: 16px 0;
 }
 
-.more-info-cont img {
+.more-info img {
   width: 35%;
   height: auto;
   margin: 16px;
+}
+
+.more-info-text {
+  width: 65%;
 }
 
 .more-info {
@@ -227,7 +242,7 @@ nav a {
 
 .reimagine {
   margin: 32px 24px 0;
-  width: 58%;
+  width: 60%;
 }
 
 .reimagine video {
@@ -242,11 +257,10 @@ nav a {
   margin: 0 0 32px 0;
 }
 
-
 .thesis-examples-cont {
   display: flex;
   flex-direction: column;
-  width: 42%;
+  width: 40%;
   margin: 16px 0;
 }
 
@@ -346,10 +360,24 @@ footer a {
     height: 40px;
     margin-top: 0.5rem;
   }
+
+  .banner-text {
+    margin-left: 0;
+    margin-right: 24px;
+  }
+  .banner-text h1 {
+    font-size: 1.4rem;
+  }
+  .banner-text p {
+    font-size: 1rem;
+  }
+
+
 }
 
 
 /* 
 - wrap anchor tags around linked items
 - make alt tags uniform
+- add css folder to resources?
  */
