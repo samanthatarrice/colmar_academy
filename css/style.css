@@ -80,21 +80,22 @@ nav {
 }
 
 .banner-text h1 {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   margin: 0;
 }
 
 .banner-section p {
   padding-bottom: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
-.banner-text button {
+.banner-text a {
   padding: 8px;
   border-color: #3A3B3C;
   background-color: #3A3B3C;
   color: white;
   font-size: 1.2rem;
+  text-align: center;
 }
 
 
