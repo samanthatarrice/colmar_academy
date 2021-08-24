@@ -1,6 +1,6 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0 24px;
+  margin: 0;
 }
 
 /* Navigation Section */
@@ -13,24 +13,58 @@ nav {
   justify-content: space-between;
 }
 
-nav a {
+  nav a {
   text-decoration: none;
   color: black;
 }
 
 .navbar {
   display: inline-flex;
-
+  margin: 0 24px;
 }
 
 .logo {
   display: flex;
 }
 
-.navbar-right {
-  float: right;
-}
-
 .navbar-right a {
   padding-left: 16px;
+  margin-right: 24px;
 }
+
+/* Banner Section */
+
+.banner-section {
+  display: flex;
+  background-color: lightgray;
+}
+
+.banner-section img {
+  width: 60%;
+  margin: 32px 24px;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 80px;
+  color: #3A3B3C;
+}
+
+.banner-text h1 {
+  font-size: 1.7rem;
+  margin: 0;
+}
+
+.banner-section p {
+  padding-bottom: 0.5rem;
+}
+
+.banner-text button {
+  padding: 8px;
+  border-color: #3A3B3C;
+  background-color: #3A3B3C;
+  color: white;
+}
+
