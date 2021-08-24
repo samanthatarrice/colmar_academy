@@ -2,6 +2,9 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   color: #3A3B3C;
+}
+
+p {
   line-height: 1.5;
 }
 
@@ -20,22 +23,18 @@ h3 {
 .more-info:hover, .thesis-example:hover {
   background-color: lightgray;
 }
+
 /* Navigation Section */
 
-nav {
-  height: 64px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-  nav a {
+nav a {
   color: black;
 }
 
-.navbar {
-  display: inline-flex;
+.navbar-desktop {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin: 0 24px;
 }
 
@@ -49,7 +48,10 @@ nav {
 
 .navbar-right a {
   padding-left: 16px;
-  margin-right: 24px;
+}
+
+.navbar-phone {
+  display: none;
 }
 
 
@@ -161,6 +163,10 @@ nav {
 .more-info a {
   color: #31a9f9;
 }
+
+/* .more-info:nth-of-type(3n) {
+  background-color: lightgray;
+} */ /* not sure if spec calls for this or hover effect */
 
 
 /* Courses Section */
@@ -283,6 +289,65 @@ footer {
 footer a {
   padding-left: 1.5rem;
 }
+
+
+@media (max-width: 1024px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+
+  .banner-text {
+    margin-right: 7%;
+  }
+  .banner-text h1 {
+    font-size: 2rem;
+  }
+  .banner-text p {
+    font-size: 1.3rem;
+  }
+
+  .more-info {
+    padding-right: 0.5rem;
+  }
+
+  .course-box {
+    height: 20rem;
+  }
+  .course-box p {
+    font-size: 0.9rem;
+  }
+
+  .thesis-example {
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-desktop {
+    display: none;
+  }
+  .navbar-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 64px;
+  }
+  .navbar-phone img {
+    height: 40px;
+    margin-top: 0.5rem;
+  }
+}
+
 
 /* 
 - wrap anchor tags around linked items
