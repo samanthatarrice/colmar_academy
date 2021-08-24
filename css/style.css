@@ -80,13 +80,13 @@ nav a {
 
 .banner-img img {
   width: 100%;
+  height: auto;
 }
 
 .banner-text {
   margin-right: 10%;
   margin-left: 16px;
   width: 40%;
-  max-width: 400px;
 }
 
 .banner-text h1 {
@@ -125,6 +125,7 @@ nav a {
 
 .practicing img {
   width: 100%;
+  height: auto;
 }
 
 .practicing h2 {
@@ -143,7 +144,7 @@ nav a {
 .more-info-cont {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  min-width: 40%;
   margin: 16px 0;
 }
 
@@ -154,7 +155,7 @@ nav a {
 }
 
 .more-info-text {
-  width: 65%;
+  min-width: 65%;
 }
 
 .more-info {
@@ -238,15 +239,17 @@ nav a {
 
 .thesis-cont {
   display: flex;
+  width: 100%;
 }
 
 .reimagine {
   margin: 32px 24px 0;
-  width: 60%;
+  max-width: 60%;
 }
 
 .reimagine video {
   width: 100%;
+  height: auto;
 }
 
 .reimagine h3 {
@@ -260,7 +263,7 @@ nav a {
 .thesis-examples-cont {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  min-width: 40%;
   margin: 16px 0;
 }
 
@@ -333,7 +336,7 @@ footer a {
   }
 
   .course-box {
-    height: 20rem;
+    height: 17rem;
   }
   .course-box p {
     font-size: 0.9rem;
