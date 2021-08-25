@@ -439,7 +439,6 @@ footer a {
     margin: 0;
     max-width: 100%;
     height: auto;
-    /* overflow: hidden; */
   }
   .banner-text {
     display: flex;
@@ -570,15 +569,3 @@ footer a {
 }
 
 /* media query added to center top text on mobile, but need better option */
-
-
-
-
-}
-
-
-/* 
-- wrap anchor tags around linked items
-- make alt tags uniform
-- add css folder to resources?
- */
