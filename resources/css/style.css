@@ -393,12 +393,9 @@ footer a {
   .banner-img {
     margin: 0;
     max-width: 100%;
+    height: auto;
     overflow: hidden;
   }
-  .banner-img img {
-    height: 500px;
-  }
-
   .banner-text {
     margin: 2rem 0;
     width: 90%;
