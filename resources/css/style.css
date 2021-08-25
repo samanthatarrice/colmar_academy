@@ -94,8 +94,8 @@ nav a {
 }
 
 .banner-text {
-  margin-right: 10%;
-  margin-left: 16px;
+  padding-right: 10%;
+  padding-left: 1rem;
   width: 40%;
 }
 
@@ -216,7 +216,7 @@ nav a {
 
 .course-box {
   width: 27%;
-  height: 24rem;
+  height: 22rem;
   background-color: white;
   margin: 16px;
   text-align: left;
@@ -396,13 +396,13 @@ footer a {
   }
 
   .banner-text {
-    margin: 32px 0;
+    margin: 2rem 0;
     width: 90%;
     top: 50px;
-    padding: 0 4rem;
+    padding: 0 2.5rem;
   }
   .banner-text h1 {
-    font-size: 3rem;
+    font-size: 2.7rem;
     line-height: 1.5;
   }
   .banner-text a {
@@ -437,20 +437,19 @@ footer a {
     font-size: 1.5rem;
     margin-top: 1rem;
   }
-  .info-section {
-    padding-bottom: 8px;
-  }
+
   .more-info:nth-of-type(3n) {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .courses-section {
     background-color: white;
     padding: 0;
-    margin: 0 2.2rem;
+    padding: 0 2.2rem 2rem 2.2rem;
+    padding-top: 2rem;
   }
   .courses-section h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-size: 2.3rem;
   }
   .courses-cont {
@@ -473,8 +472,12 @@ footer a {
     font-size: 1.5rem;
   }
 
+  .thesis-section {
+    border-top: lightgray solid 2px;
+  }
   .thesis-section h2 {
     font-size: 2.3rem;
+    padding-bottom: 16px;
   }
   .thesis-examples-cont, .reimagine h3, .reimagine p {
     display: none;
@@ -488,7 +491,14 @@ footer a {
     max-width: 100%;
     height: auto;
     margin: 0;
+    padding-bottom: 24px;
   }
+  .footer-hr,
+  footer a {
+    display: none;
+  }
+
+
 
 
 
