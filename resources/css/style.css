@@ -4,7 +4,6 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #3A3B3C;
     box-sizing: border-box;
@@ -26,10 +25,6 @@ h3 {
   font-size: 1.4rem;
 }
 
-.mobile-img {
-  display: none;
-}
-
 .links {
   color: #3A3B3C;
 }
@@ -41,6 +36,10 @@ h3 {
 
 .logo:hover {
   color: black;
+}
+
+.mobile-img {
+  display: none;
 }
 
 /* Navigation Section */
@@ -57,10 +56,18 @@ nav a:hover {
 
 .navbar-desktop {
   height: 64px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 24px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  opacity: 90%;
+}
+
+.navbar-text {
+  padding: 0 24px;
 }
 
 .logo {
@@ -78,6 +85,10 @@ nav a:hover {
   font-weight: bold;
 }
 
+.navbar-right {
+  margin-right: 24px;
+}
+
 .navbar-right a {
   padding-left: 16px;
 }
@@ -90,6 +101,7 @@ nav a:hover {
 /* Banner Section */
 
 .banner-section {
+  margin-top: 64px;
   display: flex;
   align-items: center;
   background-color: lightgray;
@@ -361,6 +373,9 @@ footer a {
   nav a {
     font-size: 0.95rem;
   }
+  .logo {
+    font-size: 1.5rem;
+  }
 
   .banner-text h1 {
     font-size: 1.6rem;
@@ -408,6 +423,9 @@ footer a {
     justify-content: space-around;
     background-color: white;
     height: 64px;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   .navbar-phone img {
     height: 40px;
@@ -551,7 +569,7 @@ footer a {
   }
 }
 
-/* media query added to center top text on mobile */
+/* media query added to center top text on mobile, but need better option */
 
 
 
