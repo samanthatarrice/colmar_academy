@@ -30,16 +30,29 @@ h3 {
   display: none;
 }
 
+.links {
+  color: #3A3B3C;
+}
 
-/* .more-info:hover, .thesis-example:hover {
-  background-color: lightgray;
-} */
+.links:hover {
+  color: gray;
+  transition: color 0.5s ease-out;
+}
+
+.logo:hover {
+  color: black;
+}
 
 /* Navigation Section */
 
 nav a {
   color: black;
   font-size: 1.3rem;
+}
+
+nav a:hover {
+  color: #31a9f9;
+  transition: color 0.5s ease-out;
 }
 
 .navbar-desktop {
@@ -528,6 +541,17 @@ footer a {
     display: none;
   }
 
+@media (max-width: 414px) {
+  .banner-text {
+    width: 90%;
+    margin-right: 2.1rem;
+  }
+  .banner-text h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* media query added to center top text on mobile */
 
 
 
