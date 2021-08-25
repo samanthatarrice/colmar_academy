@@ -31,9 +31,9 @@ h3 {
 }
 
 
-.more-info:hover, .thesis-example:hover {
+/* .more-info:hover, .thesis-example:hover {
   background-color: lightgray;
-}
+} */
 
 /* Navigation Section */
 
@@ -161,6 +161,7 @@ nav a {
   flex-direction: column;
   min-width: 41.25%; /* changed to make it look the same size as top section, but need a better option */
   margin: 1rem 0;
+  border-left: lightgray solid 1px;
 }
 
 .more-info img {
@@ -195,10 +196,9 @@ nav a {
   color: #31a9f9;
 }
 
-/* .more-info:nth-of-type(3n) {
+.more-info:nth-of-type(3n) {
   background-color: lightgray;
-} */ /* not sure if spec calls for this or hover effect */
-
+} 
 
 /* Courses Section */
 
@@ -249,7 +249,7 @@ nav a {
 
 .thesis-section h2 {
   text-align: center;
-  margin: 32px 0 0 0;
+  margin: 32px 0;
 }
 
 .thesis-cont {
@@ -258,7 +258,7 @@ nav a {
 }
 
 .reimagine {
-  margin: 32px 24px 0;
+  margin: 0 24px;
   max-width: 60%;
 }
 
@@ -279,7 +279,6 @@ nav a {
   display: flex;
   flex-direction: column;
   min-width: 40%;
-  margin: 16px 0;
 }
 
 .thesis-example {
@@ -305,8 +304,16 @@ nav a {
   height: auto;
   margin: 16px;
 }
-
+.thesis-example:nth-child(odd) {
+  background-color: lightgray;
+}
 /* Footer */
+
+.footer-hr {
+  background-color: lightgray;
+  height: 1px;
+  border: none;
+}
 
 footer {
   display: flex;
@@ -330,10 +337,10 @@ footer a {
   }
   
   h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   nav a {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .banner-text h1 {
@@ -347,10 +354,10 @@ footer a {
     padding-right: 0.5rem;
   }
   .info-section p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .course-box {
-    height: 19rem;
+    height: 18rem;
   }
   .course-box p {
     font-size: 0.9rem;
@@ -360,7 +367,7 @@ footer a {
     padding-right: 1rem;
   }
   .thesis-section p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -454,9 +461,9 @@ footer a {
     font-size: 1.5rem;
     margin-top: 1rem;
   }
-
   .more-info:nth-of-type(3n) {
     margin-bottom: 2rem;
+    background-color: white;
   }
 
   .courses-section {
