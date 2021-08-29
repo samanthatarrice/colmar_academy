@@ -101,7 +101,7 @@ nav a:hover {
 /* Banner Section */
 
 .banner-section {
-  margin-top: 64px;
+  padding-top: 64px;
   display: flex;
   align-items: center;
   background-color: lightgray;
@@ -109,8 +109,8 @@ nav a:hover {
 }
 
 .banner-img {
-  margin: 2rem 24px;
-  max-width: 60%;
+  padding: 2rem 24px;
+  width: 60%;
   height: auto;
 }
 
@@ -120,8 +120,8 @@ nav a:hover {
 }
 
 .banner-text {
-  margin-left: 1rem;
-  min-width: 40%;
+  padding-left: 1rem;
+  width: 40%;
   height: auto;
 }
 
@@ -165,8 +165,9 @@ nav a:hover {
 }
 
 .practicing {
-  margin: 2rem 24px;
-  max-width: 60%;
+  padding: 2rem 24px;
+  width: 60%;
+  margin: 0;
 }
 
 .practicing img {
@@ -175,8 +176,9 @@ nav a:hover {
 }
 
 .practicing h2 {
-  margin-top: 32px;
-  margin-bottom: 24px;
+  padding-top: 32px;
+  padding-bottom: 24px;
+  margin: 0;
 }
 
 .quote {
@@ -184,25 +186,25 @@ nav a:hover {
 }
 
 .quote-author {
-  margin: 32px 0;
+  padding: 32px 0;
 }
 
 .more-info-cont {
   display: flex;
   flex-direction: column;
-  min-width: 41.25%; /* changed to make it look the same size as top section, but need a better option */
-  margin: 1rem 0;
+  width: 40%; /* 41.25%;  changed to make it look the same size as top section, but need a better option */
+  padding: 1rem 0;
   border-left: lightgray solid 1px;
 }
 
 .more-info img {
   width: 35%;
   height: auto;
-  margin: 1rem;
+  padding: 1rem;
 }
 
 .more-info-text {
-  min-width: 65%;
+  width: 65%;
 }
 
 .more-info {
@@ -219,7 +221,7 @@ nav a:hover {
 }
 
 .more-info p {
-  margin: 3.5% 0;
+  padding: 3.5% 0;
   font-size: 1.1rem;
 }
 
@@ -433,12 +435,15 @@ footer a {
   }
 
   .banner-section {
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
   }
   .banner-img {
     margin: 0;
     max-width: 100%;
     height: auto;
+    display: inline;
+    padding: 0;
   }
   .banner-text {
     display: flex;
@@ -446,7 +451,8 @@ footer a {
     align-items: center;
     justify-content: center;
     width: 90%;
-    margin-left: 0;
+    margin: 0, auto;
+    padding-left: 0;
   }
   .banner-text div {
     width: 100%;
@@ -558,7 +564,7 @@ footer a {
     display: none;
   }
 
-@media (max-width: 414px) {
+/* @media (max-width: 414px) {
   .banner-text {
     width: 90%;
     margin-right: 2.1rem;
@@ -566,6 +572,6 @@ footer a {
   .banner-text h1 {
     font-size: 1.8rem;
   }
-}
+} */
 
 /* media query added to center top text on mobile, but need better option */
